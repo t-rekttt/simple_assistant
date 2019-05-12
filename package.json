@@ -12,6 +12,7 @@
   "dependencies": {
     "@vitalets/google-translate-api": "^2.8.0",
     "bootbot": "^1.0.16",
-    "google-assistant": "^0.5.4"
+    "google-assistant": "^0.5.4",
+    "dotenv": "^8.0.0"
   }
 }
