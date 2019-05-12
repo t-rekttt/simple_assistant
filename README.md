@@ -22,3 +22,8 @@ appSecret=<App secret from step 5>
 assistantClientSecretPath=<Assistant client secret from step 3>
 ```
 7. `node index.js`
+8. Go to Webhook part in your Facebook app Messenger Platform settings and put your webhook url as <server_ip>/webhook and your verify token the same as verifyToken variable in .env file and press Verify
+9. If everything is working your webhook url will be verified and start to work immediately
+
+### Demo
+![Demo](https://i.imgur.com/m4r4Wab.png)
