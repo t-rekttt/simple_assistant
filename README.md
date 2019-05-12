@@ -1,7 +1,7 @@
 # simple_assistant
 
 ### This is a really simple Facebook chatbot I used for Facebook messenger platform app review
-The base idea behind this is to use Google Assistant as a bot to receive and reply to messages. I used the [google-assistant](https://www.npmjs.com/package/google-assistant) npm package for that
+The base idea behind this is to use Google Assistant as a bot to receive and reply to messages. I used the [google-assistant](https://www.npmjs.com/package/google-assistant) npm package for that</br>
 But since I'm in Vietnam and Google Assistant package haven't support Vietnamese yet (I tried), so I used the [@vitalets/google-translate-api](https://www.npmjs.com/package/@vitalets/google-translate-api) package to translate Vietnamese to English and back. But Google Translate could recognize the language already so I made the bot translate the input language onto English, transfer it to Google Assistant to get reply then translate it back to the input language
 
 ### Prerequisites
